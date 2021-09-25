@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="SelectAndReportAge"
+	classname="SelectAndReportAge_ST"
 	namespace="MyTest">
 	</codegen>
 	<variables>
@@ -126,7 +126,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		SelectAndReportAge.UserCode.cs
+		SelectAndReportAge_ST.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
