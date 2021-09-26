@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Demo2Repository"
+id="6d8df3c0-2ac5-43c4-9c7f-08cb40bdab0e">
+  <codegen
+  classname="Demo2Repository"
+  namespace="Demo2"/>
+  <rootfolder
+  name="Root"
+  id="b85d1140-b3d3-43ac-9b18-241879c69ee0"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+      <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

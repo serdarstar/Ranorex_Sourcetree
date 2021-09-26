@@ -1,0 +1,904 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest.AddPerson">
+             <summary>
+            The AddPerson recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.AddPerson.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddPerson.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddPerson.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.AddPerson.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.AddPerson.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.AddPerson.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.AddPerson.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.CloseAUT.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:MyTest.DeleteName">
+             <summary>
+            The DeleteName recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.DeleteName.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.DeleteName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.DeleteName.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.DeleteName.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.DeleteName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.DeleteName.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.DeleteName.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest.DeleteNames">
+            <summary>
+            Description of DeleteNames.
+            </summary>
+        </member>
+        <member name="M:MyTest.DeleteNames.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.DeleteNames.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MyTest.GetNumber">
+             <summary>
+            The GetNumber recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.GetNumber.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.GetNumber.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.GetNumber.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.GetNumber.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.GetNumber.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.GetNumber.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.GetNumber.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.GetNumber.varNumberOfNames">
+            <summary>
+            Gets or sets the value of variable varNumberOfNames.
+            </summary>
+        </member>
+        <member name="T:MyTest.InsertDepartment">
+             <summary>
+            The InsertDepartment recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.InsertDepartment.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.InsertDepartment.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.InsertDepartment.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.InsertDepartment.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.InsertDepartment.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.InsertDepartment.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.InsertDepartment.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.InsertDepartment.varDept">
+            <summary>
+            Gets or sets the value of variable varDept.
+            </summary>
+        </member>
+        <member name="T:MyTest.InsertName">
+             <summary>
+            The InsertName recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.InsertName.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.InsertName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.InsertName.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.InsertName.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.InsertName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.InsertName.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.InsertName.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.InsertName.varName">
+            <summary>
+            Gets or sets the value of variable varName.
+            </summary>
+        </member>
+        <member name="P:MyTest.InsertName.varDept">
+            <summary>
+            Gets or sets the value of variable varDept.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepository">
+            <summary>
+            The class representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.varRegister">
+            <summary>
+            Gets or sets the value of variable varRegister.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.varDepartmentList">
+            <summary>
+            Gets or sets the value of variable varDepartmentList.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.varDepartment">
+            <summary>
+            Gets or sets the value of variable varDepartment.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.varFirstName">
+            <summary>
+            Gets or sets the value of variable varFirstName.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.RxDemoApp">
+            <summary>
+            The RxDemoApp folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepository.DESKTOPS21QA0C">
+            <summary>
+            The DESKTOPS21QA0C folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.Marketing">
+            <summary>
+            The Marketing item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.MarketingInfo">
+            <summary>
+            The Marketing item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.ProjectManagement">
+            <summary>
+            The ProjectManagement item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.ProjectManagementInfo">
+            <summary>
+            The ProjectManagement item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.Management">
+            <summary>
+            The Management item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.List1000AppFolder.ManagementInfo">
+            <summary>
+            The Management item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder">
+            <summary>
+            The RxDemoAppAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxDemoApp  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.RanorizeYourselfIn20Minutes">
+            <summary>
+            The RanorizeYourselfIn20Minutes item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.RanorizeYourselfIn20MinutesInfo">
+            <summary>
+            The RanorizeYourselfIn20Minutes item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.RanorexStudioFundamentals">
+            <summary>
+            The RanorexStudioFundamentals item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxDemoAppAppFolder.RanorexStudioFundamentalsInfo">
+            <summary>
+            The RanorexStudioFundamentals item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.ImageBasedAutomation">
+            <summary>
+            The ImageBasedAutomation item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.ImageBasedAutomationInfo">
+            <summary>
+            The ImageBasedAutomation item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.About">
+            <summary>
+            The About item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.AboutInfo">
+            <summary>
+            The About item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.TestDatabase">
+            <summary>
+            The TestDatabase item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.TestDatabaseInfo">
+            <summary>
+            The TestDatabase item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.TestDatabase1">
+            <summary>
+            The TestDatabase1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.TestDatabase1Info">
+            <summary>
+            The TestDatabase1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.LastNameRow3">
+            <summary>
+            The LastNameRow3 item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.LastNameRow3Info">
+            <summary>
+            The LastNameRow3 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.CellOfThomasBach">
+            <summary>
+            The CellOfThomasBach item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.CellOfThomasBachInfo">
+            <summary>
+            The CellOfThomasBach item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxMainFrameAppFolder.RxTabStandard">
+            <summary>
+            The RxTabStandard folder.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.RxTabStandardFolder">
+            <summary>
+            The RxTabStandardFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabStandard  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.BtnAddPerson">
+            <summary>
+            The BtnAddPerson item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.BtnAddPersonInfo">
+            <summary>
+            The BtnAddPerson item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Department">
+            <summary>
+            The Department item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.DepartmentInfo">
+            <summary>
+            The Department item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Serdar0NoDepartment">
+            <summary>
+            The Serdar0NoDepartment item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Serdar0NoDepartmentInfo">
+            <summary>
+            The Serdar0NoDepartment item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Serdar0Management">
+            <summary>
+            The Serdar0Management item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Serdar0ManagementInfo">
+            <summary>
+            The Serdar0Management item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Zuhal0Marketing">
+            <summary>
+            The Zuhal0Marketing item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.Zuhal0MarketingInfo">
+            <summary>
+            The Zuhal0Marketing item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.FirstListItem">
+            <summary>
+            The FirstListItem item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.FirstListItemInfo">
+            <summary>
+            The FirstListItem item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.BtnDeletePerson">
+            <summary>
+            The BtnDeletePerson item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.BtnDeletePersonInfo">
+            <summary>
+            The BtnDeletePerson item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.LblNumberOfPersonsNumber">
+            <summary>
+            The LblNumberOfPersonsNumber item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.RxTabStandardFolder.LblNumberOfPersonsNumberInfo">
+            <summary>
+            The LblNumberOfPersonsNumber item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.MyTestRepositoryFolders.DESKTOPS21QA0CAppFolder">
+            <summary>
+            The DESKTOPS21QA0CAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest.MyTestRepositoryFolders.DESKTOPS21QA0CAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DESKTOPS21QA0C  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.DESKTOPS21QA0CAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.DESKTOPS21QA0CAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.DESKTOPS21QA0CAppFolder.DESKTOPS21QA0C">
+            <summary>
+            The DESKTOPS21QA0C item.
+            </summary>
+        </member>
+        <member name="P:MyTest.MyTestRepositoryFolders.DESKTOPS21QA0CAppFolder.DESKTOPS21QA0CInfo">
+            <summary>
+            The DESKTOPS21QA0C item info.
+            </summary>
+        </member>
+        <member name="T:MyTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.Recording1.varRegister">
+            <summary>
+            Gets or sets the value of variable varRegister.
+            </summary>
+        </member>
+        <member name="T:MyTest.SelectAndReportAge">
+             <summary>
+            The SelectAndReportAge recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.SelectAndReportAge.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.SelectAndReportAge.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.SelectAndReportAge.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.SelectAndReportAge.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.SelectAndReportAge.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.SelectAndReportAge.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.SelectAndReportAge.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.SelectAndReportAge.varFirstName">
+            <summary>
+            Gets or sets the value of variable varFirstName.
+            </summary>
+        </member>
+        <member name="T:MyTest.SelectDepartment">
+             <summary>
+            The SelectDepartment recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.SelectDepartment.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.SelectDepartment.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.SelectDepartment.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.SelectDepartment.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.SelectDepartment.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.SelectDepartment.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.SelectDepartment.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.SelectDepartment.varDepartment">
+            <summary>
+            Gets or sets the value of variable varDepartment.
+            </summary>
+        </member>
+        <member name="T:MyTest.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.StartAUT.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:MyTest.TestDatabaseTab">
+             <summary>
+            The TestDatabaseTab recording.
+             </summary>
+        </member>
+        <member name="F:MyTest.TestDatabaseTab.repo">
+            <summary>
+            Holds an instance of the MyTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest.TestDatabaseTab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest.TestDatabaseTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest.TestDatabaseTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest.TestDatabaseTab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest.TestDatabaseTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest.TestDatabaseTab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

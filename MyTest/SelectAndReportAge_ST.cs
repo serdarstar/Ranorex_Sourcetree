@@ -24,34 +24,44 @@ namespace MyTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The TestDatabaseTab recording.
+    ///The SelectAndReportAge_ST recording.
     /// </summary>
-    [TestModule("a9174f6d-d308-40a3-83fd-455c5e974229", ModuleType.Recording, 1)]
-    public partial class TestDatabaseTab : ITestModule
+    [TestModule("2b9a90ce-e221-4acc-9926-76e863e32846", ModuleType.Recording, 1)]
+    public partial class SelectAndReportAge_ST : ITestModule
     {
         /// <summary>
         /// Holds an instance of the MyTestRepository repository.
         /// </summary>
         public static MyTestRepository repo = MyTestRepository.Instance;
 
-        static TestDatabaseTab instance = new TestDatabaseTab();
+        static SelectAndReportAge_ST instance = new SelectAndReportAge_ST();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public TestDatabaseTab()
+        public SelectAndReportAge_ST()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static TestDatabaseTab Instance
+        public static SelectAndReportAge_ST Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        /// <summary>
+        /// Gets or sets the value of variable varFirstName.
+        /// </summary>
+        [TestVariable("f37b3c18-340b-4fcb-9c9e-966562322cfb")]
+        public string varFirstName
+        {
+            get { return repo.varFirstName; }
+            set { repo.varFirstName = value; }
+        }
 
 #endregion
 
@@ -79,9 +89,9 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase1' at 52;11.", repo.RxMainFrame.TestDatabase1Info, new RecordItemIndex(0));
-            repo.RxMainFrame.TestDatabase1.Click("52;11");
-            Delay.Milliseconds(3000);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.CellOfThomasBach' at 32;7.", repo.RxMainFrame.CellOfThomasBachInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.CellOfThomasBach.Click("32;7");
+            Delay.Milliseconds(0);
             
         }
 

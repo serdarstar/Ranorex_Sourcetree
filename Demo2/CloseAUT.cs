@@ -20,38 +20,51 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace MyTest
+namespace Demo2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The TestDatabaseTab recording.
+    ///The CloseAUT recording.
     /// </summary>
-    [TestModule("a9174f6d-d308-40a3-83fd-455c5e974229", ModuleType.Recording, 1)]
-    public partial class TestDatabaseTab : ITestModule
+    [TestModule("7b639761-a77e-451c-87d9-06656a806b07", ModuleType.Recording, 1)]
+    public partial class CloseAUT : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the MyTestRepository repository.
+        /// Holds an instance of the Demo2Repository repository.
         /// </summary>
-        public static MyTestRepository repo = MyTestRepository.Instance;
+        public static Demo2Repository repo = Demo2Repository.Instance;
 
-        static TestDatabaseTab instance = new TestDatabaseTab();
+        static CloseAUT instance = new CloseAUT();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public TestDatabaseTab()
+        public CloseAUT()
         {
+            CloseAutProcessIDVar = "-1";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static TestDatabaseTab Instance
+        public static CloseAUT Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _CloseAutProcessIDVar;
+
+        /// <summary>
+        /// Gets or sets the value of variable CloseAutProcessIDVar.
+        /// </summary>
+        [TestVariable("b355bba3-174c-4f02-bbd1-9d140dd46626")]
+        public string CloseAutProcessIDVar
+        {
+            get { return _CloseAutProcessIDVar; }
+            set { _CloseAutProcessIDVar = value; }
+        }
 
 #endregion
 
@@ -79,9 +92,9 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase1' at 52;11.", repo.RxMainFrame.TestDatabase1Info, new RecordItemIndex(0));
-            repo.RxMainFrame.TestDatabase1.Click("52;11");
-            Delay.Milliseconds(3000);
+            Report.Log(ReportLevel.Info, "Application", "Closing application with Process ID bound to variable $CloseAutProcessIDVar.", new RecordItemIndex(0));
+            Host.Current.CloseApplication(int.Parse(CloseAutProcessIDVar), 500);
+            Delay.Milliseconds(0);
             
         }
 

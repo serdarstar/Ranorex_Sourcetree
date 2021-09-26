@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace MyTest
+namespace Demo2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The TestDatabaseTab recording.
+    ///The Recording1 recording.
     /// </summary>
-    [TestModule("a9174f6d-d308-40a3-83fd-455c5e974229", ModuleType.Recording, 1)]
-    public partial class TestDatabaseTab : ITestModule
+    [TestModule("278e5c46-cc4c-4b42-b019-6217cb626e1c", ModuleType.Recording, 1)]
+    public partial class Recording1 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the MyTestRepository repository.
+        /// Holds an instance of the Demo2Repository repository.
         /// </summary>
-        public static MyTestRepository repo = MyTestRepository.Instance;
+        public static Demo2Repository repo = Demo2Repository.Instance;
 
-        static TestDatabaseTab instance = new TestDatabaseTab();
+        static Recording1 instance = new Recording1();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public TestDatabaseTab()
+        public Recording1()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static TestDatabaseTab Instance
+        public static Recording1 Instance
         {
             get { return instance; }
         }
@@ -79,10 +79,6 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase1' at 52;11.", repo.RxMainFrame.TestDatabase1Info, new RecordItemIndex(0));
-            repo.RxMainFrame.TestDatabase1.Click("52;11");
-            Delay.Milliseconds(3000);
-            
         }
 
 #region Image Feature Data

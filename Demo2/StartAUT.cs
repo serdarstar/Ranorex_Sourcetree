@@ -20,38 +20,51 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace MyTest
+namespace Demo2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The TestDatabaseTab recording.
+    ///The StartAUT recording.
     /// </summary>
-    [TestModule("a9174f6d-d308-40a3-83fd-455c5e974229", ModuleType.Recording, 1)]
-    public partial class TestDatabaseTab : ITestModule
+    [TestModule("2bb1aa83-607c-41bc-b60a-2370490fb201", ModuleType.Recording, 1)]
+    public partial class StartAUT : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the MyTestRepository repository.
+        /// Holds an instance of the Demo2Repository repository.
         /// </summary>
-        public static MyTestRepository repo = MyTestRepository.Instance;
+        public static Demo2Repository repo = Demo2Repository.Instance;
 
-        static TestDatabaseTab instance = new TestDatabaseTab();
+        static StartAUT instance = new StartAUT();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public TestDatabaseTab()
+        public StartAUT()
         {
+            StartAutProcessIDVar = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static TestDatabaseTab Instance
+        public static StartAUT Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _StartAutProcessIDVar;
+
+        /// <summary>
+        /// Gets or sets the value of variable StartAutProcessIDVar.
+        /// </summary>
+        [TestVariable("0838868e-084b-474b-ac12-04be4a9a4b71")]
+        public string StartAutProcessIDVar
+        {
+            get { return _StartAutProcessIDVar; }
+            set { _StartAutProcessIDVar = value; }
+        }
 
 #endregion
 
@@ -79,9 +92,9 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase1' at 52;11.", repo.RxMainFrame.TestDatabase1Info, new RecordItemIndex(0));
-            repo.RxMainFrame.TestDatabase1.Click("52;11");
-            Delay.Milliseconds(3000);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\star\\Downloads\\RxDemoApp.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\star\\Downloads\\RxDemoApp.exe", "", "", false));
+            Delay.Milliseconds(0);
             
         }
 

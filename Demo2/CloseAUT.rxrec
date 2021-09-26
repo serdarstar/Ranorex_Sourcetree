@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7b639761-a77e-451c-87d9-06656a806b07"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Demo2">
+	</codegen>
+	<variables>
+		<var
+		id="b355bba3-174c-4f02-bbd1-9d140dd46626"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="f99798e1-2196-4beb-b7b7-bd7511d8c3ec">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="6d8df3c0-2ac5-43c4-9c7f-08cb40bdab0e"
+	name="Demo2Repository"
+	relativepath="Demo2Repository.rxrep">
+		<codegen
+		classname="Demo2Repository"
+		namespace="Demo2">
+		</codegen>
+		<rootfolder
+		id="b85d1140-b3d3-43ac-9b18-241879c69ee0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

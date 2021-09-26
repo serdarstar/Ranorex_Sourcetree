@@ -160,12 +160,6 @@
 			<testcase
 			id="80049cd8-794d-4bc6-a18a-e778d10a245d"
 			name="Table_Item_Selection">
-				<parameters>
-					<param
-					name="NewParameter_ST"
-					value="">
-					</param>
-				</parameters>
 			</testcase>
 			<testmodule
 			id="95fa4ed5-271f-4748-b1da-1fdfdc04e1ee"
@@ -206,7 +200,7 @@
 			</testmodule>
 			<testmodule
 			id="d806dd58-bf7b-4973-85c5-9f4ec9c93428"
-			name="SelectAndReportAge_ST"
+			name="SelectAndReportAge"
 			ref="2b9a90ce-e221-4acc-9926-76e863e32846"
 			type="Recording">
 			</testmodule>
@@ -320,7 +314,7 @@
 					name="Table_Item_Selection">
 						<testmodule
 						id="d806dd58-bf7b-4973-85c5-9f4ec9c93428"
-						name="SelectAndReportAge_ST">
+						name="SelectAndReportAge">
 						</testmodule>
 					</testcase>
 					<teardown

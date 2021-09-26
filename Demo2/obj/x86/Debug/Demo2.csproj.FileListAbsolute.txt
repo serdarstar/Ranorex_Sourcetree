@@ -1,0 +1,10 @@
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Demo2.rxtmg
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Demo2.rxtst
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Demo2.exe.config
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Demo2.xml
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Demo2.exe
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Demo2.pdb
+C:\Users\star\Desktop\repo\MyTest\Demo2\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\star\Desktop\repo\MyTest\Demo2\obj\x86\Debug\Demo2.csprojResolveAssemblyReference.cache
+C:\Users\star\Desktop\repo\MyTest\Demo2\obj\x86\Debug\Demo2.exe
+C:\Users\star\Desktop\repo\MyTest\Demo2\obj\x86\Debug\Demo2.pdb
