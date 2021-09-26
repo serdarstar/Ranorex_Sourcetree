@@ -81,7 +81,7 @@ namespace MyTest
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase1' at 52;11.", repo.RxMainFrame.TestDatabase1Info, new RecordItemIndex(0));
             repo.RxMainFrame.TestDatabase1.Click("52;11");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(30);
             
         }
 
