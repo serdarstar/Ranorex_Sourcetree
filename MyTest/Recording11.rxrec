@@ -19,7 +19,7 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
+	classname="Recording11"
 	namespace="MyTest">
 	</codegen>
 	<variables>
@@ -335,7 +335,7 @@ jlWuogynBBccGs2HjxfPjvD/APE1ybkl2J5OaAP/2Q==
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		Recording11.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

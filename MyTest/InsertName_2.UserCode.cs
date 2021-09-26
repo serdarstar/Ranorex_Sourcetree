@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace MyTest
 {
-    public partial class InsertName
+    public partial class InsertName_2
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

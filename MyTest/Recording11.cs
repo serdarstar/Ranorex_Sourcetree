@@ -24,59 +24,44 @@ namespace MyTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The InsertName recording.
+    ///The Recording11 recording.
     /// </summary>
-    [TestModule("6aa16c98-32c7-4001-8325-5c9f0aa9079f", ModuleType.Recording, 1)]
-    public partial class InsertName : ITestModule
+    [TestModule("1e8ede6e-8b41-4650-9bc8-e11d8aa1ab1a", ModuleType.Recording, 1)]
+    public partial class Recording11 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the MyTestRepository repository.
         /// </summary>
         public static MyTestRepository repo = MyTestRepository.Instance;
 
-        static InsertName instance = new InsertName();
+        static Recording11 instance = new Recording11();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public InsertName()
+        public Recording11()
         {
-            varName = "";
-            varDept = "";
+            varRegister = "Introduction";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static InsertName Instance
+        public static Recording11 Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _varName;
-
         /// <summary>
-        /// Gets or sets the value of variable varName.
+        /// Gets or sets the value of variable varRegister.
         /// </summary>
-        [TestVariable("17792919-a45e-49eb-aca4-faa8045f5ed2")]
-        public string varName
+        [TestVariable("eaffb028-6697-4ed5-9cf2-7f155f60fd87")]
+        public string varRegister
         {
-            get { return _varName; }
-            set { _varName = value; }
-        }
-
-        string _varDept;
-
-        /// <summary>
-        /// Gets or sets the value of variable varDept.
-        /// </summary>
-        [TestVariable("bf9b66d6-4a05-4735-a0f6-79b51d7f2b46")]
-        public string varDept
-        {
-            get { return _varDept; }
-            set { _varDept = value; }
+            get { return repo.varRegister; }
+            set { repo.varRegister = value; }
         }
 
 #endregion
@@ -105,17 +90,17 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.FirstName' at 65;12.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(0));
-            repo.RxMainFrame.RxTabStandard.FirstName.Click("65;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase' at Center.", repo.RxMainFrame.TestDatabaseInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.TestDatabase.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varName' with focus on 'RxMainFrame.RxTabStandard.FirstName'.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(1));
-            repo.RxMainFrame.RxTabStandard.FirstName.PressKeys(varName);
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Title=$varRegister) on item 'RxMainFrame.TestDatabase'.", repo.RxMainFrame.TestDatabaseInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.RxMainFrame.TestDatabaseInfo, "Title", varRegister);
+            Delay.Milliseconds(100);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.Open' at 4;8.", repo.RxMainFrame.RxTabStandard.OpenInfo, new RecordItemIndex(2));
-            //repo.RxMainFrame.RxTabStandard.Open.Click("4;8");
-            //Delay.Milliseconds(0);
+            Report.Screenshot(ReportLevel.Info, "User", "Tab title check", null, false, new RecordItemIndex(2));
+            
+            Report.Log(ReportLevel.Info, "User", "OK", new RecordItemIndex(3));
             
         }
 
