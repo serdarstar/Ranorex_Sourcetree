@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="InsertName"
+	classname="InsertName_2"
 	namespace="MyTest">
 	</codegen>
 	<variables>
@@ -659,7 +659,7 @@ Uc+7Af1qWiigAooooAKKKKACkH3z9BRRQAtNT7z/AO9/QUUUAOqOL/WTf7//ALKKKKAJKKKKAP/Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		InsertName.UserCode.cs
+		InsertName_2.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
