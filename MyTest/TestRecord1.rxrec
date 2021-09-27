@@ -2165,6 +2165,18 @@ KcoCqFAwAMAUZozQAtNljEsTxtkBwQcUuaM0ACjaoUdAMUtJmjNAC0UmaM0ALRSZozQAtFJmjNAC
 0UmaM0Af/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Test"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1d3ce73b-3259-491a-9bb0-0a3e3cb6048e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="58c510cf-03ed-41c2-bb00-b04a354d0527"

@@ -1,15 +1,18 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="GetNumber.rxrec" />
+    <Element value="MyTest.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="InsertDepartment.rxrec" />
     <Element value="GetNumber.rxrec" />
     <Element value="DeleteName.rxrec" />
     <Element value="MyTest.rxtst" />
     <Element value="TestDatabaseTab.cs" />
     <Element value="TestDatabaseTab.rxrec" />
     <Element value="DeleteNames.cs" />
+    <Element value="MyTestRepository.rxrep" />
+    <Element value="TestRecord1.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
