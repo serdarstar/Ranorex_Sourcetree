@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace MyTest
 {
-    public partial class SelectDepartment
+    public partial class SelectDepartment_TEst
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

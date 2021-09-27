@@ -819,6 +819,22 @@ mode="Global">
 				</robustPath>
 			</info>
 		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="75040d9e-a49d-4015-8eda-5d9e901cfd17">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="varNumberOfNames">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="58c510cf-03ed-41c2-bb00-b04a354d0527"

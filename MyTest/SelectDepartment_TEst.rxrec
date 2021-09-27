@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="SelectDepartment"
+	classname="SelectDepartment_TEst"
 	namespace="MyTest">
 	</codegen>
 	<variables>
@@ -510,7 +510,7 @@ KdRQFxuKMUtLQA3FGKdRQA3FGKdSUBcTFGKWigBMUYpaKAExRiloosB//9k=
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		SelectDepartment.UserCode.cs
+		SelectDepartment_TEst.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

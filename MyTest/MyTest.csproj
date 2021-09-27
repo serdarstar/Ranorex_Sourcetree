@@ -221,15 +221,15 @@
       <UserCode>true</UserCode>
       <id>fa80f3b7-8736-4a60-ad1c-aa3582fd8a4e</id>
     </Compile>
-    <Compile Include="SelectDepartment.cs">
+    <Compile Include="SelectDepartment_TEst.cs">
       <BoundTo>9d14027f-4fca-4a4c-ab61-e43a54f6b020</BoundTo>
-      <DependentUpon>SelectDepartment.rxrec</DependentUpon>
+      <DependentUpon>SelectDepartment_TEst.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e1157b0a-a080-4586-a1fe-aca45bad7b13</id>
     </Compile>
-    <Compile Include="SelectDepartment.UserCode.cs">
+    <Compile Include="SelectDepartment_TEst.UserCode.cs">
       <BoundTo>9d14027f-4fca-4a4c-ab61-e43a54f6b020</BoundTo>
-      <DependentUpon>SelectDepartment.rxrec</DependentUpon>
+      <DependentUpon>SelectDepartment_TEst.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>c54f6333-ad75-4d2e-84e3-dd329f685ba8</id>
     </Compile>
@@ -308,7 +308,7 @@
       <id>14faf4c2-0756-4abe-a996-9941a1abf0a0</id>
       <recordtableid>2b9a90ce-e221-4acc-9926-76e863e32846</recordtableid>
     </None>
-    <None Include="SelectDepartment.rxrec">
+    <None Include="SelectDepartment_TEst.rxrec">
       <BoundTo>c390a404-af4e-4463-9dc0-59728170e1dd</BoundTo>
       <id>9d14027f-4fca-4a4c-ab61-e43a54f6b020</id>
       <recordtableid>afb14e0b-9c58-4d52-9b59-df001cb93de5</recordtableid>

@@ -50,7 +50,7 @@
 			</testcase>
 			<testmodule
 			id="4603b9e7-00cb-495c-8ab9-ab7a5c9aed9c"
-			name="SelectDepartment"
+			name="SelectDepartment_TEst"
 			ref="afb14e0b-9c58-4d52-9b59-df001cb93de5"
 			type="Recording">
 				<databinding>
@@ -259,7 +259,7 @@
 							</testmodule>
 							<testmodule
 							id="4603b9e7-00cb-495c-8ab9-ab7a5c9aed9c"
-							name="SelectDepartment">
+							name="SelectDepartment_TEst">
 							</testmodule>
 							<testmodule
 							id="ea068016-892d-46b9-8b4a-5a6d9c48eb17"
@@ -375,7 +375,7 @@
 				</tr>
 				<tr>
 					<td>
-						Serdar
+						TestUser1
 					</td>
 					<td>
 						Management
@@ -386,7 +386,7 @@
 						Zuhal
 					</td>
 					<td>
-						Marketing
+						IT
 					</td>
 				</tr>
 				<tr>
