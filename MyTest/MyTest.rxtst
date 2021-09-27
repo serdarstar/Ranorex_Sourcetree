@@ -351,7 +351,7 @@
 		</DataSource>
 		<DataSource
 		id="be4c7814-ed48-445f-8a81-32c515f16993"
-		lastknownrowcount="3"
+		lastknownrowcount="4"
 		name="NewConnector2"
 		type="Ranorex.Core.Data.SimpleDataConnector">
 			<lastknowncolumns>
@@ -375,7 +375,7 @@
 				</tr>
 				<tr>
 					<td>
-						TestUser1111111111
+						TestUser555
 					</td>
 					<td>
 						Management
@@ -391,10 +391,18 @@
 				</tr>
 				<tr>
 					<td>
-						TestUser
+						TestUser2
 					</td>
 					<td>
 						Sales
+					</td>
+				</tr>
+				<tr>
+					<td>
+						TestUser1
+					</td>
+					<td>
+						Accounting
 					</td>
 				</tr>
 			</table>

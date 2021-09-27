@@ -394,6 +394,39 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			searchtimeout="30000ms">
 				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename&gt;'First' and @text=$varFirstName]/../cell[@accessiblename&gt;'Age']
 			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="974fa669-ef0f-4274-bc89-5050a19b7bb0"
+			name="BtnSubmitUserName"
+			refimgid="a690896e-9387-48b6-915f-67ee695357b6"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="17c91e4c-ff6c-4cfe-b7ad-2f8940440419"
+			name="EnterYourName"
+			refimgid="bfb50b59-2f6c-4fdf-8d5e-974ce41274e4"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="d8173968-fc5f-4173-8262-4d01579d7db2"
+			name="RxButtonExit"
+			refimgid="d4354d3e-8b9a-4c99-a295-937c94a724e1"
+			refpath="/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/button[@controlname='RxButtonExit']
+			</item>
 			<basepath>
 				/form[@controlname='RxMainFrame']
 			</basepath>

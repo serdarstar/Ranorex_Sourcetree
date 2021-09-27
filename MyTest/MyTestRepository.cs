@@ -383,6 +383,9 @@ namespace MyTest
             RepoItemInfo _testdatabase1Info;
             RepoItemInfo _lastnamerow3Info;
             RepoItemInfo _cellofthomasbachInfo;
+            RepoItemInfo _btnsubmitusernameInfo;
+            RepoItemInfo _enteryournameInfo;
+            RepoItemInfo _rxbuttonexitInfo;
 
             /// <summary>
             /// Creates a new RxMainFrame  folder.
@@ -397,6 +400,9 @@ namespace MyTest
                 _testdatabase1Info = new RepoItemInfo(this, "TestDatabase1", "?/?/tabpage[@accessiblename='Test database']", "", 30000, null, "9e579d27-1c92-41b7-b93c-bc7f9b19b7f9");
                 _lastnamerow3Info = new RepoItemInfo(this, "LastNameRow3", "?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='LastName Row 3']", "", 30000, null, "26561b61-00c8-4b52-a256-424ef5c78d8d");
                 _cellofthomasbachInfo = new RepoItemInfo(this, "CellOfThomasBach", "?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename>'First' and @text=$varFirstName]/../cell[@accessiblename>'Age']", "", 30000, null, "38bed8a2-e9d8-4644-8439-ae576bcd047a");
+                _btnsubmitusernameInfo = new RepoItemInfo(this, "BtnSubmitUserName", "?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']", "", 30000, null, "974fa669-ef0f-4274-bc89-5050a19b7bb0");
+                _enteryournameInfo = new RepoItemInfo(this, "EnterYourName", "?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']", "", 30000, null, "17c91e4c-ff6c-4cfe-b7ad-2f8940440419");
+                _rxbuttonexitInfo = new RepoItemInfo(this, "RxButtonExit", "button[@controlname='RxButtonExit']", "", 30000, null, "d8173968-fc5f-4173-8262-4d01579d7db2");
             }
 
             /// <summary>
@@ -564,6 +570,78 @@ namespace MyTest
                 get
                 {
                     return _cellofthomasbachInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitUserName item.
+            /// </summary>
+            [RepositoryItem("974fa669-ef0f-4274-bc89-5050a19b7bb0")]
+            public virtual Ranorex.Button BtnSubmitUserName
+            {
+                get
+                {
+                    return _btnsubmitusernameInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitUserName item info.
+            /// </summary>
+            [RepositoryItemInfo("974fa669-ef0f-4274-bc89-5050a19b7bb0")]
+            public virtual RepoItemInfo BtnSubmitUserNameInfo
+            {
+                get
+                {
+                    return _btnsubmitusernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EnterYourName item.
+            /// </summary>
+            [RepositoryItem("17c91e4c-ff6c-4cfe-b7ad-2f8940440419")]
+            public virtual Ranorex.Text EnterYourName
+            {
+                get
+                {
+                    return _enteryournameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EnterYourName item info.
+            /// </summary>
+            [RepositoryItemInfo("17c91e4c-ff6c-4cfe-b7ad-2f8940440419")]
+            public virtual RepoItemInfo EnterYourNameInfo
+            {
+                get
+                {
+                    return _enteryournameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RxButtonExit item.
+            /// </summary>
+            [RepositoryItem("d8173968-fc5f-4173-8262-4d01579d7db2")]
+            public virtual Ranorex.Button RxButtonExit
+            {
+                get
+                {
+                    return _rxbuttonexitInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RxButtonExit item info.
+            /// </summary>
+            [RepositoryItemInfo("d8173968-fc5f-4173-8262-4d01579d7db2")]
+            public virtual RepoItemInfo RxButtonExitInfo
+            {
+                get
+                {
+                    return _rxbuttonexitInfo;
                 }
             }
 
