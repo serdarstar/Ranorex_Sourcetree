@@ -2,8 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/slnx.sqlite   ekledim
-*.suo
+/.vs/slnx.sqlite   ekledim yine ekliyorum
 *.html.lnk
 //*.rxlog
 *.rxlog.lnk
