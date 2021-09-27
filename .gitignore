@@ -2,4 +2,25 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/slnx.sqlite
+/.vs/slnx.sqlite   ekledim
+*.suo
+*.html.lnk
+//*.rxlog
+*.rxlog.lnk
+//*.rxlog.data
+*.jpg
+*.rxuser
+*.pref
+*.sqlite
+*Reports/
+.vs/
+*bin/
+*obj/
+*.cache
+Debug/
+/BlackStar/Trading/PhysicalDeal/PricingAndMTM/MTM/binTmp/Ranorex.Core.Resolver.dll
+/BlackStar/Trading/PhysicalDeal/PricingAndMTM/MTM/binTmp/MTM_SelectGranularity.Runner.pdb
+/BlackStar/Trading/PhysicalDeal/PricingAndMTM/MTM/binTmp/MTM_SelectGranularity.Runner.exe.config
+/BlackStar/Trading/PhysicalDeal/PricingAndMTM/MTM/binTmp/MTM_SelectGranularity.Runner.exe
+/BlackStar/Trading/PhysicalDeal/PricingAndMTM/MTM/binTmp
+/.vs
