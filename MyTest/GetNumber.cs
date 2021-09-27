@@ -96,6 +96,8 @@ namespace MyTest
             varNumberOfNames = repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumber.Element.GetAttributeValueText("Text");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "User", varNumberOfNames, new RecordItemIndex(1));
+            
         }
 
 #region Image Feature Data
