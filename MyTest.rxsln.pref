@@ -10,6 +10,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest[MyTest[InsertName.rxrec[]TestDatabaseTab.rxrec[]]]]&#xD;&#xA;Solution MyTest\MyTest\GetNumber.rxrec&#xD;&#xA;Solution MyTest" />
+  <ProjectBrowserState value="[Solution MyTest[Solution Items[]MyTest[]]]&#xD;&#xA;Solution MyTest\MyTest\MyTest.rxtst&#xD;&#xA;Solution MyTest\MyTest\app.config" />
   <StartupProject value="{BEE2ACEB-A3E6-4C11-A128-8945F99E4AB0}" />
 </Properties>

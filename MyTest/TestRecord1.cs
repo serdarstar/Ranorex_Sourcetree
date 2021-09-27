@@ -95,6 +95,8 @@ namespace MyTest
             repo.RxMainFrame.RxButtonExit.Click("13;10");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "User", "Test", new RecordItemIndex(4));
+            
         }
 
 #region Image Feature Data
