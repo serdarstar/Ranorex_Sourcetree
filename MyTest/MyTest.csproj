@@ -209,18 +209,6 @@
     <Compile Include="Program.cs">
       <id>3f992c93-5795-4986-a54d-412d8205b8c9</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>4b1959f2-169e-409f-99d6-ed215bbe2009</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>7d60013b-3c87-4bfe-b149-efb79d1a981b</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>4b1959f2-169e-409f-99d6-ed215bbe2009</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>259b3c3b-2ca1-4aba-af2e-5b0f7fa949e6</id>
-    </Compile>
     <Compile Include="SelectAndReportAge.cs">
       <BoundTo>14faf4c2-0756-4abe-a996-9941a1abf0a0</BoundTo>
       <DependentUpon>SelectAndReportAge.rxrec</DependentUpon>
@@ -314,11 +302,6 @@
       <id>c390a404-af4e-4463-9dc0-59728170e1dd</id>
       <repoid>58c510cf-03ed-41c2-bb00-b04a354d0527</repoid>
       <reporootid>acbd1ac2-1c6a-4fcb-811d-72786e18bccf</reporootid>
-    </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>c390a404-af4e-4463-9dc0-59728170e1dd</BoundTo>
-      <id>4b1959f2-169e-409f-99d6-ed215bbe2009</id>
-      <recordtableid>1e8ede6e-8b41-4650-9bc8-e11d8aa1ab1a</recordtableid>
     </None>
     <None Include="SelectAndReportAge.rxrec">
       <BoundTo>c390a404-af4e-4463-9dc0-59728170e1dd</BoundTo>

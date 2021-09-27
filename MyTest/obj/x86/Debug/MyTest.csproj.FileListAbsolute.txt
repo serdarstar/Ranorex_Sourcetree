@@ -1,0 +1,12 @@
+C:\Users\star\Desktop\Gunvor\MyTest\obj\x86\Debug\MyTest.csproj.AssemblyReference.cache
+C:\Users\star\Desktop\Gunvor\MyTest\obj\x86\Debug\MyTest.csproj.CoreCompileInputs.cache
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\MyTest.rxtmg
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\MyTest.rxtst
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\MyTest.exe.config
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\MyTest.xml
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\MyTest.exe
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\MyTest.pdb
+C:\Users\star\Desktop\Gunvor\MyTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\star\Desktop\Gunvor\MyTest\obj\x86\Debug\MyTest.csproj.CopyComplete
+C:\Users\star\Desktop\Gunvor\MyTest\obj\x86\Debug\MyTest.exe
+C:\Users\star\Desktop\Gunvor\MyTest\obj\x86\Debug\MyTest.pdb
